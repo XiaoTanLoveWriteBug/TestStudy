@@ -1,0 +1,15 @@
+# 切换环境
+env: uat
+# dev环境信息
+dev:
+  url: https://oasis-dev.mercedes-benz.com.cn/oasis
+  # 每次更新一下环境对应 Authorization
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJPQUFETUlOIiwiaXNzIjoiT0FTSVMiLCJleHAiOjE2NjI2MjU3ODM1OTksImlhdCI6MTY2MDAzMzc4M30.9M4ixCzRy546fm9KtywD8GkjhlgpEo1_-CY-niuYVo1hJv5jELT0nquLb1JvNcaVjqQmzo3B6np5u20xejzWRA
+# uat环境信息
+uat:
+  url: https://oasis-uat.mercedes-benz.com.cn/oasis
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJDWkhJSEFOIiwiaXNzIjoiT0FTSVMiLCJleHAiOjE2NjQ5MzYxODY0MzcsImlhdCI6MTY2MjM0NDE4Nn0.NbthSQzjnBxM51sE75V_4XXBYRg0WAjLd31c15lgCGv1_sDI5KS22pqgJSF39YDDkph9NQJV84cX8ayxs5feFg
+# training环境信息
+training:
+  url: https://oasis-training.mercedes-benz.com.cn/oasis
+  token: NONE
